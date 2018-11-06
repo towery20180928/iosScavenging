@@ -12,6 +12,7 @@
 </style>
 </head>
 <body>
+	<button type="button" onclick="alert('你好，世界!')">点我!</button>
 	<div align="center">
 		<img alt="#" src="https://raw.githubusercontent.com/towery20180928/iosScavenging/master/tanhao.png">
 		<h1>若当前页面没有跳转</h1>
