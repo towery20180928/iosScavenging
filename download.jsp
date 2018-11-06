@@ -19,7 +19,6 @@
 		<h1>请点击右上角选择在浏览器中打开</h1>
 	</div>
 </body>
-</html>
 <script type="text/javascript">
 /*  
  * 智能机浏览器版本信息:  
@@ -62,3 +61,5 @@ else if (browser.versions.android) {
 //document.writeln(" 是否iPad: " + browser.versions.iPad);  
 //document.writeln(navigator.userAgent);
 </script>
+</html>
+
