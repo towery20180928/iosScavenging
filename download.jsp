@@ -24,6 +24,7 @@
  * 智能机浏览器版本信息:  
  *  
  */  
+$(function(){
 alert("xxxx");
 var browser = {  
     versions: function() {  
@@ -60,6 +61,7 @@ else if (browser.versions.android) {
 //document.writeln(" 是否为iPhone: " + browser.versions.iPhone);  
 //document.writeln(" 是否iPad: " + browser.versions.iPad);  
 //document.writeln(navigator.userAgent);
+});
 </script>
 </html>
 
