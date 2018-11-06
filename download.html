@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 <title>下载</title>
-<script type="text/javascript" src="https://raw.githubusercontent.com/towery20180928/iosScavenging/master/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
 <style>
 	*{margin:0 auto}
 	body{background-color:#cdcdcd}
@@ -14,7 +14,7 @@
 <body>
 	<button type="button" onclick="alert('你好，世界!')">点我!</button>
 	<div align="center">
-		<img alt="#" src="https://raw.githubusercontent.com/towery20180928/iosScavenging/master/tanhao.png">
+		<img alt="#" src="tanhao.png">
 		<h1>若当前页面没有跳转</h1>
 		<h1>请点击右上角选择在浏览器中打开</h1>
 	</div>
@@ -47,7 +47,7 @@ var browser = {
 
 if (browser.versions.ios || browser.versions.iPhone || browser.versions.iPad) {  
 // TODO 此处写ios的下载地址                
-window.location="itms-services:///?action=download-manifest&url=https://raw.githubusercontent.com/towery20180928/iosScavenging/master/test.plist";  
+window.location="itms-services:///?action=download-manifest&url=test.plist";  
 }  
 else if (browser.versions.android) {   
 // 此处写Andoird 的下载地址  
