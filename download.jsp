@@ -25,6 +25,7 @@
  * 智能机浏览器版本信息:  
  *  
  */  
+alert("xxxx");
 var browser = {  
     versions: function() {  
         var u = navigator.userAgent, app = navigator.appVersion;  
