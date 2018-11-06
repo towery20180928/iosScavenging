@@ -1,10 +1,9 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
 <title>下载</title>
-<script type="text/javascript" src="<%=request.getContextPath()%>/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/jquery-1.8.3.min.js"></script>
 <style>
 	*{margin:0 auto}
 	body{background-color:#cdcdcd}
@@ -14,7 +13,7 @@
 </head>
 <body>
 	<div align="center">
-		<img alt="#" src="<%=request.getContextPath()%>/images/tanhao.png">
+		<img alt="#" src="<%=request.getContextPath()%>tanhao.png">
 		<h1>若当前页面没有跳转</h1>
 		<h1>请点击右上角选择在浏览器中打开</h1>
 	</div>
